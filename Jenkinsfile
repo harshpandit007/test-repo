@@ -18,7 +18,7 @@ pipeline {
       echo "running deployments.."
     }
   }
-  
+ } 
 }
   
  
