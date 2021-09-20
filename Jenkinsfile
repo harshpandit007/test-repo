@@ -7,9 +7,11 @@ pipeline {
     steps {
       echo "running the build.."
     }
+   }
     stage("test"){
     steps {
       echo "running tests.."
+    }
     }
     stage("deploy"){
     steps {
